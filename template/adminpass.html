@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting System</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+
+    <h1>Admin Portal</h1>
+    
+    <div style="background-color: rgb(128, 0, 21); width: 470px; padding: 2rem; margin-left: 25rem; border: 2px solid rgb(151, 151, 151); border-radius: 10px; margin-top: 3rem;" >
+
+        <div class="input-group mb-3" style="width: 400px; " >
+            <span class="input-group-text" id="inputGroup-sizing-default" style="background-color: rgb(155, 255, 248); width: 8rem;">Admin ID</span>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+
+        <div class="input-group mb-3" style="width: 400px;" >
+            <span class="input-group-text" id="inputGroup-sizing-default" style="background-color: rgb(155, 255, 248); width: 8rem;">Password</span>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+
+        <a href="{% url "adminlogin" %}" style="text-decoration: none;">
+        <button type="button" class="btn btn-warning btn-sm" style="display:block; margin:auto;">Enter</button>
+        </a>
+
+    </div>
+
+</body>
+</html>

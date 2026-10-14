@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+
+
+#maindiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+    background-image: url('https://wallpapers.com/images/hd/republican-and-democrat-votes-1mtiany42yh8jreu.jpg');
+    background-size: cover;       /* fills full screen */
+    background-position: center;  /* centers the image */
+    background-repeat: no-repeat; /* no tiling */
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  border: 2px solid rgb(227, 231, 112);
+  border-radius: 10px;
+  padding: 40px 60px;
+  background-color: rgb(1, 0, 58);
+  color: white;
+  margin-top: -22rem;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+#divbtn{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+button{
+    padding: 10px 20px;
+}
+
+#admin{
+    background-color: rgb(147, 0, 0);
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 8px;
+}
+#admin:active{
+    background-color: rgb(229, 0, 0);
+    color: white;
+}
+
+#voter{
+    background-color: rgb(0, 114, 0);
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 8px;
+}
+#voter:active{
+    background-color: rgb(0, 171, 0);
+    color: white;
+}
+
+
+
